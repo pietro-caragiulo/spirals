@@ -37,7 +37,7 @@ for i, thisN in enumerate(N):
     thisAx.set_title('N=%d' % thisN, color=CARDINAL_RED, fontweight='extra bold', fontsize=30, fontstyle='italic')
 
 fig.suptitle('Prime Numbers spirals', color=CARDINAL_RED, fontweight='extra bold', fontsize=60)
-plt.figtext(0.5, 0.15, 'by Pietro Caragiulo', ha='center', va='center', color='gray')
+plt.figtext(0.5, 0.15, 'https://github.com/pietro-caragiulo/spirals', ha='center', va='center', color='gray', fontstyle='italic')
 
 plt.show()
 
